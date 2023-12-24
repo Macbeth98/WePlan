@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WePlan</string>
+    <string name="default_web_client_id">733271525224-v7vmqsak4d0q0di3pmvrqbem16lnc24k.apps.googleusercontent.com</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="signed_out">SIGNED OUT</string>
+    <string name="google_status_fmt">Signed in as: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TO DO</string>
+    <string name="completed">completed</string>
+    <string name="groups">groups</string>
+    <string name="settings">settings</string>
+    <string name="delete_group">Delete Group</string>
+    <string name="edit_description">Edit Group</string>
+    <string name="delete_member">Delete Member</string>
+    <string-array name="reminder_options">
+        <item>No Reminder</item>
+        <item>At time of event</item>
+        <item>15 minutes before</item>
+        <item>30 minutes before</item>
+        <item>1 hour before</item>
+    </string-array>
+    <string-array name="feedback_categories">
+        <item>Bug Report</item>
+        <item>Suggestion</item>
+        <item>General Feedback</item>
+    </string-array>
+
+    <string-array name="frequency_options">
+        <item>Never</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+</resources>

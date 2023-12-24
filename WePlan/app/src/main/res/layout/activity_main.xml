@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <TextView
+        android:id="@+id/status_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:textSize="20sp"
+        android:text="@string/signed_out"
+        android:textAlignment="center"
+        android:layout_marginTop="32dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status_text_view"
+        android:layout_marginTop="32dp"
+        android:background="@color/bottom_nav_item_tint" />
+
+<!--    <Button-->
+<!--        android:id="@+id/homeButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="145dp"-->
+<!--        android:layout_marginTop="140dp"-->
+<!--        android:onClick="onHomeButtonClick"-->
+<!--        android:text="Home"-->
+<!--        android:visibility="invisible" />-->
+
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_in_button"
+        android:layout_marginTop="16dp"
+        android:text="Home"
+        android:onClick="onHomeButtonClick"
+        android:background="@color/bottom_nav_item_tint"
+        android:textColor="@color/white"
+        android:elevation="4dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/sign_out_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/homeButton"
+        android:layout_marginTop="16dp"
+        android:text="@string/sign_out"
+        android:background="@color/bottom_nav_item_tint"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:elevation="4dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="indicator_color">#E91E63</color>
+    <color name="selected_tab">#F44336</color>
+    <color name="unselected_tab">#757575</color>
+    <color name="primaryColor">#3F51B5</color>
+    <color name="fab_icon_tint">#FFFFFF</color>
+    <color name="bottom_nav_item_tint">#E91E63</color>
+    <color name="bottom_nav_item_text_color">#F44336</color>
+    <color name="bottom_nav_background_color">#FFFFFF</color>
+    <color name="overdue_task_color">#FFEB3B</color>
+    <color name="completed_task_color">#4CAF50</color>
+</resources>
