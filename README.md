@@ -86,17 +86,7 @@ We have in place 7 total firebase cloud functions that are written in Node/Types
 - **onUserAddedToGroup** : Sends a notification when a user is added to a group, to every existing user in the group and also the new user that is being added
 - **onUserRemovedFromGroup** : Similar to the previous function, just that now it is for deletion of user from group
 - **testFCM** : Created a dummy function to test - uses a task id to invoke a notification
- 
- 
- 
- 
- 
- 
-## Authors
- 
-- [@Macbeth98 (Mani)](https://www.github.com/Macbeth98)
-- [@UditSankhadasariya (Udit)](https://www.github.com/UditSankhadasariya)
-- [@chesspatzer (Vish)](https://www.github.com/chesspatzer)
+
  
  
  
